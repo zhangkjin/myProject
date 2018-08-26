@@ -59,7 +59,7 @@
 	- ps:
 	`如果你试图插入非string类型的值，你将在编译时发现并且修正这类问题。如果没有使用泛型，你将会在运行项目调用该方法后你所编写的程序抛出ClassCastException异常而崩溃。 
 `
-7. For-Each循环
+7. `For-Each`循环
 	 - 没有加强前使用for循环</br>
 	 `void printAll(Collection c) { `</br>
 　　 `for (Iteratori = c.iterator(); i.hasNext(); ) { `</br>
