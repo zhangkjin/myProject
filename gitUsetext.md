@@ -77,8 +77,10 @@
 		5. 管理分支
 			- 创建分支</br>
 				**git branch <name>**
+				![创建分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/TMX5hRL9auWyLg2mWgCD7jQsteMArugWLn5dsawIIc0!/b/dDcBAAAAAAAA&bo=cgKSAAAAAAADB8A!&rf=viewer_4)
 			- 切换分支</br>
 				**git checkout <name>**
+				![切换分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/kDqHprOM1z2GVzzmoixQBrl60.V7YDbxsNec3zaMvqg!/b/dDYBAAAAAAAA&bo=8gKuAAAAAAADB3w!&rf=viewer_4)
 			- 合并分支</br>
 				**git merge <name>**
 			- 删除分支</br>
