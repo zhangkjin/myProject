@@ -76,19 +76,19 @@
 			![克隆](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/hwcMRNMGQKv4xnNYWNPJWrr1P3.6Wyx12RH*0eNrZnY!/b/dDYBAAAAAAAA&bo=KgT0AAAAAAADB*g!&rf=viewer_4)
 		5. 管理分支
 			- 创建分支</br>
-				**git branch <name>**</br>
+				**git branch 'name'**</br>
 				![创建分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/TMX5hRL9auWyLg2mWgCD7jQsteMArugWLn5dsawIIc0!/b/dDcBAAAAAAAA&bo=cgKSAAAAAAADB8A!&rf=viewer_4)
 			- 切换分支</br>
-				**git checkout <name>**</br>
+				**git checkout 'name'**</br>
 				![切换分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/kDqHprOM1z2GVzzmoixQBrl60.V7YDbxsNec3zaMvqg!/b/dDYBAAAAAAAA&bo=8gKuAAAAAAADB3w!&rf=viewer_4)
 			- 合并分支</br>
-				**git merge <name>**</br>
+				**git merge 'name'**</br>
 				![合并分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/wKVdDf3kGEky4MXFpfqWPDsVChkrqpOyav54*53oKIc!/b/dEYBAAAAAAAA&bo=jgK2AAAAAAADBxg!&rf=viewer_4)
 			- 删除分支</br>
-				**git branch -d <name>**</br>
+				**git branch -d 'name'**</br>
 				![删除分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/avm6ngZ6O.FQdMzOWbRRGsivu1hBL8n4XGNyrTdZEqQ!/b/dDQBAAAAAAAA&bo=4gJ8AAAAAAADF64!&rf=viewer_4)
 			- 查看分支</br>
 				**git branch**</br>
 				![查看分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/TMX5hRL9auWyLg2mWgCD7jQsteMArugWLn5dsawIIc0!/b/dDcBAAAAAAAA&bo=cgKSAAAAAAADF9A!&rf=viewer_4)
 			- 创建+切换分支</br>
-				**git checkout -b <name>**</br>
+				**git checkout -b 'name'**</br>
