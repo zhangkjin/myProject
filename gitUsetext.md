@@ -1,11 +1,11 @@
-#git注册
+# git注册
 - github地址：[https://github.com](https://github.com)</br>
 - 注册：![注册git](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/T7*V*FHBvCc41j78iIIkSL3JiYUus.KKDSRfR0zJUwc!/b/dAgBAAAAAAAA&bo=EgT4AwAAAAADB88!&rf=viewer_4)</br>
 - 登陆Git：![登陆git](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/OI3QbH.8ZQeoRkXQckymk8HDfnofR.9EJ.8bnw9Sd3Q!/b/dDYBAAAAAAAA&bo=ggPMAwAAAAADB2w!&rf=viewer_4)</br>
 登陆账号可以是用户名或者邮箱</br>
 - 创建仓库：![创建仓库](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/5D7bo1zbj9gMmdLtkSswbdOK*ARC6c2R0UVcvLAVVaE!/b/dFYAAAAAAAAA&bo=cAg4BAAAAAADB2Y!&rf=viewer_4)</br>
 
-#安装git
+# 安装git
 1. git下载地址：[https://git-scm.com/downloads](https://git-scm.com/downloads)</br>
 	1. 选择自己想要下载的系统版本（以Windows10为例）</br>
 	![选择系统](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/LAo0q99xYIJXPjlKweXZpiZ*2r1BnuTNHffGOrJ7Myw!/b/dEUBAAAAAAAA&bo=pAeQAgAAAAADBxM!&rf=viewer_4)</br>
@@ -39,7 +39,7 @@
 			![选择设置](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/FLeNXZaJplO6fySqpIgOOfbp3sY3QNJ7MNSeXfQChMM!/b/dDIBAAAAAAAA&bo=Vgh4AwAAAAADR0c!&rf=viewer_4)
 			![选择ssh设置](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/74kbQSYt87hacxK7qswrxKIna26p9KhiOJG4nzxKQbg!/b/dFUAAAAAAAAA&bo=ognOAwAAAAADRwQ!&rf=viewer_4)
 			
-#上传项目
+# 上传项目
 1. 在你想上传的项目文件夹右键，选中Git Bash Here，即会弹出命令行窗口
 	![选择文件夹](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/8aq4Xn2aW1GFi5weH1*8DSfh*eyH*XvW56yq0c1GQ3A!/b/dDABAAAAAAAA&bo=VgdCAgAAAAADBzM!&rf=viewer_4)
 2. 初始化仓库
