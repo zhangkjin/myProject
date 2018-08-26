@@ -50,13 +50,40 @@
 3. 上传文件
 	1. 创建README.md，可以自己在文件夹中手动创建，也可以使用命令创建
 		- touch README.md
-	- 使用以下命令将想要提交的文件添加到暂存区并提交
+	2. 使用以下命令将想要提交的文件添加到暂存区并提交
+		![git提交](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/VjwirsG9VpZHcyrXYrdWaAiueKN8h9W6KPGb2aSUhvU!/b/dDABAAAAAAAA&bo=HgNSAAAAAAADB20!&rf=viewer_4)
 		- git add '你要提交的文件或文件夹'
 		- git commit -m '提交注释'
 		- ps:如果想要将文件夹中的全部文件或文件夹上传只需将add后面的文件或文件夹名称用'.'代替即可；commit -m后面的单引号内容为本次提交的注释，可以根据自己的要求填写。 
-	- 本地仓库和远程仓库同步
+	3. 本地仓库和远程仓库同步
 		1. 同步命令
+			![同步远程仓库](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/g4x428xGTA1DXal6uHAJ.JnDz*EAjVNGQBQ53Qo8NeE!/b/dDYBAAAAAAAA&bo=2gQuAAAAAAADF8I!&rf=viewer_4)
 			- git remote add origin git@github.com:用户名/项仓库名.git --origin 可以根据自己的爱好更改
-		- 上传文件到远程仓库
+		2. 上传文件到远程仓库
+			![上传到远程仓库](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/0jCks7VIFawdSGyqqGuH1rMI6.Muvr15XPi6D43ygRs!/b/dDUBAAAAAAAA&bo=9AP2AAAAAAADNxM!&rf=viewer_4)
 			- git push -u origin master
-
+		3. 从远程仓库获取最新代码
+			![拉取代码](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/Nb55.CtpIptD.z3WBU1gnQpXd8uipR1imMcUQzgFZhE!/b/dDEBAAAAAAAA&bo=LAQkAQAAAAADNx8!&rf=viewer_4)
+			- git pull <远程主机名> <远程分支名>:<本地分支名></br>
+			  例如：git pull origin master:master
+			  
+		4. 将远程仓库克隆到本地
+			- 选择克隆到本地的位置，右键选择 git bash 
+			![远程库克隆](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/WyQ3jnMI6cSCyZOdXffpI3YBNvpAcC.JsqJKF72*4VQ!/b/dDQBAAAAAAAA&bo=mAP0AgAAAAADB08!&rf=viewer_4)
+			- 输入命令 </br>
+			 **git clone git@github.com:用户名/仓库名.git**
+			
+			![克隆](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/hwcMRNMGQKv4xnNYWNPJWrr1P3.6Wyx12RH*0eNrZnY!/b/dDYBAAAAAAAA&bo=KgT0AAAAAAADB*g!&rf=viewer_4)
+		5. 管理分支
+			- 创建分支</br>
+				**git branch <name>**
+			- 切换分支</br>
+				**git checkout <name>**
+			- 合并分支</br>
+				**git merge <name>**
+			- 删除分支</br>
+				**git branch -d <name>**
+			- 查看分支</br>
+				**git branch**
+			- 创建+切换分支</br>
+				**git checkout -b <name>**
