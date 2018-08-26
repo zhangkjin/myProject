@@ -83,9 +83,12 @@
 				![切换分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/kDqHprOM1z2GVzzmoixQBrl60.V7YDbxsNec3zaMvqg!/b/dDYBAAAAAAAA&bo=8gKuAAAAAAADB3w!&rf=viewer_4)
 			- 合并分支</br>
 				**git merge <name>**
+				![合并分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/wKVdDf3kGEky4MXFpfqWPDsVChkrqpOyav54*53oKIc!/b/dEYBAAAAAAAA&bo=jgK2AAAAAAADBxg!&rf=viewer_4)
 			- 删除分支</br>
 				**git branch -d <name>**
+				![删除分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/avm6ngZ6O.FQdMzOWbRRGsivu1hBL8n4XGNyrTdZEqQ!/b/dDQBAAAAAAAA&bo=4gJ8AAAAAAADF64!&rf=viewer_4)
 			- 查看分支</br>
 				**git branch**
+				![查看分支](http://m.qpic.cn/psb?/V10sTJNc3PWHJb/TMX5hRL9auWyLg2mWgCD7jQsteMArugWLn5dsawIIc0!/b/dDcBAAAAAAAA&bo=cgKSAAAAAAADF9A!&rf=viewer_4)
 			- 创建+切换分支</br>
 				**git checkout -b <name>**
