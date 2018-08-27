@@ -113,6 +113,7 @@
 8. Common Annotations，原是J2EE 5.0规范的一部分，现在把它的一部分放到了J2SE 6.0中
 9. 嵌入式数据库 Derby
 10. 提供了Console类用以开发控制台程序，位于java.io包中。据此可方便与Windows下的cmd或Linux下的Terminal等交互。</br>
+11. 简化Web Services，新增Web服务元数据
 
 ## jdk1.7
  1. 对Java集合（Collections）的增强支持，可直接采用[]、{}的形式存入对象，采用[]的形式按照索引、键值来获取集合中的对象。如：</br>
@@ -156,6 +157,12 @@
  `……`</br>
  10. Map集合支持并发请求，注HashTable是线程安全的，Map是非线程安全的。但此处更新使得其也支持并发。另外，Map对象可这样定义：</br>
  `Map map = {name:"age",age:18};`</br>
+ 
+ 11. 新增一些取环境信息的工具方法</br>
+ 	- File System.getJavaIoTempDir() // IO临时文件夹
+ 	- File System.getJavaHomeDir() // JRE的安装目录
+ 	- File System.getUserHomeDir() // 当前用户目录
+ 	- File System.getUserDir() // 启动java进程时所在的目录5
  
 ## jdk1.8
   1. 接口的默认方法：即接口中可以声明一个非抽象的方法做为默认的实现，但只能声明一个，且在方法的返回类型前要加上“default”关键字.如：</br>
