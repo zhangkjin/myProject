@@ -120,7 +120,7 @@
 `Set<String>set={“item1”,”item2”,”item3”};//存`</br>
 `Map<String,Integer> map={“key1”:1,”key2”:2};//存`</br>
 `Intvalue=map[“key1”];//取`</br>
- 2. 在Switch中可用String
+ 2. 在Switch中可用String</br>
  	`public String test(String a) {`</br>
      `String umb;`</br>
      `switch (a) {`</br>
@@ -257,7 +257,9 @@
 4. 改进的 Javadoc
 	- Javadoc 现在支持在 API 文档中的进行搜索。另外，Javadoc 的输出现在符合兼容 HTML5 标准。此外，你会注意到，每个 Javadoc 页面都包含有关 JDK 模块类或接口来源的信息。
 5. 集合工厂方法
-	- 通常，您希望在代码中创建一个集合（例如，List 或 Set ），并直接用一些元素填充它。 实例化集合，几个 “add” 调用，使得代码重复。 Java 9，添加了几种集合工厂方法：
+	- 通常，您希望在代码中创建一个集合（例如，List 或 Set ），并直接用一些元素填充它。 实例化集合，几个 “add” 调用，使得代码重复。 Java 9，添加了几种集合工厂方法：</br>
+	`Set<Integer> ints = Set.of(1, 2, 3);`</br>
+   `List<String> strings = List.of("first", "second");`</br>
 6. 改进的 Stream API
 	- 长期以来，Stream API 都是 Java 标准库最好的改进之一。通过这套 API 可以在集合上建立用于转换的申明管道。在 Java 9 中它会变得更好。Stream 接口中添加了 4 个新的方法：dropWhile, takeWhile, ofNullable。还有个 iterate 方法的新重载方法，可以让你提供一个 Predicate (判断条件)来指定什么时候结束迭代：
 7. 私有接口方法
