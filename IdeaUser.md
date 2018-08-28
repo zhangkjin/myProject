@@ -1,6 +1,9 @@
 # Idea下载
 
 1. Idea下载地址:[https://www.jetbrains.com/idea](https://www.jetbrains.com/idea/)</br>
+	- ![](http://m.qpic.cn/psb?/V10sTJNc0tl3XC/JS6iK7QMfe7S05YFxwkcbz3NCxmF2ZxmXSA4Qp92eiU!/b/dDMBAAAAAAAA&bo=bwo4BAAAAAADB3s!&rf=viewer_4)
+	- ![](http://m.qpic.cn/psb?/V10sTJNc0tl3XC/MzPoyHxTaP7XGtklw6UialJDhiaN7WoBpla29LEV55E!/b/dPMAAAAAAAAA&bo=xgniAwAAAAADR0w!&rf=viewer_4)
+	- ![](http://m.qpic.cn/psb?/V10sTJNc0tl3XC/v2*cFo3Svg7mV253bJXaxIGenBRBtLumtVASfnuNucQ!/b/dDMBAAAAAAAA&bo=zgfSAQAAAAADJxg!&rf=viewer_4)
 
 # Idea安装</br>
 - 第一步</br>
